@@ -1,0 +1,48 @@
+.rainbow-component  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: red;
+    padding: 3px;
+    border-radius: 5px;
+    width: 90vw;
+    margin-left: 5vw;
+    border: none;
+    animation: rainbow 10s infinite;
+}
+
+.slider {
+    background: rgba(46, 46, 46, 0.9);
+    color: rgb(226, 226, 226);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    background: rgba(46, 46, 46, 0.9);
+    color:rgb(112, 112, 112);
+    margin-top: 10px;
+    width: max-content;
+    margin-left: 5vw;
+    padding: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 5px;
+}
+
+@keyframes rainbow {
+    0% {background: rgb(255, 0, 0)}
+    8% {background: rgb(255, 127, 0)}
+    17% {background: rgb(255, 255, 0)}
+    25% {background: rgb(127, 255, 0)}
+    33% {background: rgb(0, 255, 0)}
+    42% {background: rgb(0, 255, 127)}
+    50% {background: rgb(0, 255, 255)}
+    59% {background: rgb(0, 127, 255)}
+    67% {background: rgb(0, 0, 255)}
+    75% {background: rgb(127, 0, 255)}
+    84% {background: rgb(255, 0, 255)}
+    100% {background: rgb(255, 0, 127)}
+}

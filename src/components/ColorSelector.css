@@ -1,0 +1,6 @@
+.color-selector {
+    width: 100vw;
+    display: flex;
+    overflow: scroll;
+    padding: 10px;
+}

@@ -1,0 +1,13 @@
+.color-circle {
+    min-width: 70px;
+    min-height: 70px;
+    margin: 5px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+
+
+.color-circle:hover {
+    transform: scale(1.15);
+}
